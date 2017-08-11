@@ -33,7 +33,7 @@
 }
 
 
-- (BOOL)validatePhoneNumber {
+- (BOOL)validateMobilePhone {
     NSString *phoneNumberRegexCN = @"(\\+86)*(([0-9])|(\\-)|(\\s))*";
     NSString *phoneNumberRegixSimple = @"^1[3-8]\\d{9}";
     NSPredicate *predCN = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",phoneNumberRegexCN];

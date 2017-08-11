@@ -29,7 +29,7 @@
  
  @return value
  */
-- (BOOL)validatePhoneNumber;
+- (BOOL)validateMobilePhone;
 
 /**
  密码是否有效(字母、符号、数字)
