@@ -7,14 +7,16 @@
 //
 
 #import "UILabel+Edge.h"
+
+
 #import <objc/runtime.h>
-/// 获取UIEdgeInsets在水平方向上的值
+/// Get edge with horizontal
 CG_INLINE CGFloat
 UIEdgeInsetsGetHorizontalValue(UIEdgeInsets insets) {
     return insets.left + insets.right;
 }
 
-/// 获取UIEdgeInsets在垂直方向上的值
+///   Get edge with vertical
 CG_INLINE CGFloat
 UIEdgeInsetsGetVerticalValue(UIEdgeInsets insets) {
     return insets.top + insets.bottom;

@@ -10,6 +10,11 @@
 
 @interface NSString (Encrypt)
 
+/**
+ Encrypt in MD5.
+
+ @return encrypted stirng.
+ */
 - (NSString *)MD5;
 
 @end

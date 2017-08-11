@@ -7,8 +7,6 @@
 //
 
 #import "NSString+Encrypt.h"
-#include <sys/types.h>
-#include <sys/sysctl.h>
 //MD5加密
 #import <CommonCrypto/CommonDigest.h>
 

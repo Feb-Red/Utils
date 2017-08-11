@@ -10,6 +10,12 @@
 
 @interface UIImage (Color)
 
+/**
+ Get image with color.
+
+ @param color color.
+ @return image.
+ */
 + (UIImage *)imageWithColor:(UIColor *)color;
 
 @end

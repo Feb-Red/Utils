@@ -11,7 +11,7 @@
 @interface UILabel (Edge)
 
 /**
- 修改label内容距 `top` `left` `bottom` `right` 边距
+ Modify label content edge: `top` `left` `bottom` `right` .
  */
 @property (nonatomic, assign) UIEdgeInsets contentInsets;
 

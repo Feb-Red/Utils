@@ -11,37 +11,37 @@
 @interface NSString (Validate)
 
 /**
- 验证身份证号
+ Validate user identifier no. (e.g. 41156719970703051X)
  
- @return result
+ @return result.
  */
 - (BOOL)validateIdentityCard;
 
 /**
- 验证银行卡卡号
+ Validate bank card no.
  
- @return result
+ @return result.
  */
 - (BOOL)validateBankCardNumber;
 
 /**
- 是否为手机号
+ Validate mobile phone.
  
- @return value
+ @return value.
  */
 - (BOOL)validateMobilePhone;
 
 /**
- 密码是否有效(字母、符号、数字)
+ Validate pwd contains(字母、符号、数字).
  
- @return value
+ @return value.
  */
 - (BOOL)validatePwd;
 
 /**
- 邮箱的合法性
+ Validate email.
  
- @return value
+ @return value.
  */
 - (BOOL)validateEmail;
 

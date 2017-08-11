@@ -14,6 +14,8 @@
 		34FB35031F3D530A00785F15 /* CALayer+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB35021F3D530A00785F15 /* CALayer+Border.m */; };
 		34FB35081F3D53B300785F15 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB35071F3D53B300785F15 /* UIImage+ImageEffects.m */; };
 		34FB350B1F3D54F800785F15 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB350A1F3D54F800785F15 /* DateUtils.m */; };
+		34FB35111F3D768B00785F15 /* NSString+AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB35101F3D768B00785F15 /* NSString+AppInfo.m */; };
+		34FB35141F3D7B9800785F15 /* ExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB35131F3D7B9800785F15 /* ExceptionHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +48,10 @@
 		34FB35071F3D53B300785F15 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		34FB35091F3D54F800785F15 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
 		34FB350A1F3D54F800785F15 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+		34FB350F1F3D768B00785F15 /* NSString+AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AppInfo.h"; sourceTree = "<group>"; };
+		34FB35101F3D768B00785F15 /* NSString+AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AppInfo.m"; sourceTree = "<group>"; };
+		34FB35121F3D7B9800785F15 /* ExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionHandler.h; sourceTree = "<group>"; };
+		34FB35131F3D7B9800785F15 /* ExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,10 @@
 				34FB35021F3D530A00785F15 /* CALayer+Border.m */,
 				34FB35091F3D54F800785F15 /* DateUtils.h */,
 				34FB350A1F3D54F800785F15 /* DateUtils.m */,
+				34FB350F1F3D768B00785F15 /* NSString+AppInfo.h */,
+				34FB35101F3D768B00785F15 /* NSString+AppInfo.m */,
+				34FB35121F3D7B9800785F15 /* ExceptionHandler.h */,
+				34FB35131F3D7B9800785F15 /* ExceptionHandler.m */,
 			);
 			path = Object_C_Utils;
 			sourceTree = "<group>";
@@ -165,9 +175,11 @@
 			files = (
 				34FB34F41F3D4EEB00785F15 /* NSString+Validate.m in Sources */,
 				34FB34FD1F3D51A300785F15 /* UIImage+Color.m in Sources */,
+				34FB35141F3D7B9800785F15 /* ExceptionHandler.m in Sources */,
 				34FB35081F3D53B300785F15 /* UIImage+ImageEffects.m in Sources */,
 				34FB34FA1F3D50A600785F15 /* NSString+Encrypt.m in Sources */,
 				34FB350B1F3D54F800785F15 /* DateUtils.m in Sources */,
+				34FB35111F3D768B00785F15 /* NSString+AppInfo.m in Sources */,
 				34FB35031F3D530A00785F15 /* CALayer+Border.m in Sources */,
 				34FB35001F3D523B00785F15 /* UILabel+Edge.m in Sources */,
 			);
