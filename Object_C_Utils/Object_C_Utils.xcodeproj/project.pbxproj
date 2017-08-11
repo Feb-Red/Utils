@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34FB34E81F3D417B00785F15 /* Object_C_Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB34E71F3D417B00785F15 /* Object_C_Utils.m */; };
-		34FB34E91F3D417B00785F15 /* Object_C_Utils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 34FB34E61F3D417B00785F15 /* Object_C_Utils.h */; };
+		34FB34F41F3D4EEB00785F15 /* NSString+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB34F31F3D4EEB00785F15 /* NSString+Validate.m */; };
+		34FB34FA1F3D50A600785F15 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB34F91F3D50A600785F15 /* NSString+Encrypt.m */; };
+		34FB34FD1F3D51A300785F15 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB34FC1F3D51A300785F15 /* UIImage+Color.m */; };
+		34FB35001F3D523B00785F15 /* UILabel+Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB34FF1F3D523B00785F15 /* UILabel+Edge.m */; };
+		34FB35031F3D530A00785F15 /* CALayer+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB35021F3D530A00785F15 /* CALayer+Border.m */; };
+		34FB35081F3D53B300785F15 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB35071F3D53B300785F15 /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +22,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				34FB34E91F3D417B00785F15 /* Object_C_Utils.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +29,20 @@
 
 /* Begin PBXFileReference section */
 		34FB34E31F3D417B00785F15 /* libObject_C_Utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObject_C_Utils.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		34FB34E61F3D417B00785F15 /* Object_C_Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Object_C_Utils.h; sourceTree = "<group>"; };
-		34FB34E71F3D417B00785F15 /* Object_C_Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Object_C_Utils.m; sourceTree = "<group>"; };
+		34FB34F21F3D4EEB00785F15 /* NSString+Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validate.h"; sourceTree = "<group>"; };
+		34FB34F31F3D4EEB00785F15 /* NSString+Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validate.m"; sourceTree = "<group>"; };
+		34FB34F61F3D4F0900785F15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34FB34F81F3D50A600785F15 /* NSString+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
+		34FB34F91F3D50A600785F15 /* NSString+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
+		34FB34FB1F3D51A300785F15 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		34FB34FC1F3D51A300785F15 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		34FB34FE1F3D523B00785F15 /* UILabel+Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Edge.h"; sourceTree = "<group>"; };
+		34FB34FF1F3D523B00785F15 /* UILabel+Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Edge.m"; sourceTree = "<group>"; };
+		34FB35011F3D530A00785F15 /* CALayer+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Border.h"; sourceTree = "<group>"; };
+		34FB35021F3D530A00785F15 /* CALayer+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Border.m"; sourceTree = "<group>"; };
+		34FB35041F3D536300785F15 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		34FB35061F3D53B300785F15 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		34FB35071F3D53B300785F15 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +61,7 @@
 			children = (
 				34FB34E51F3D417B00785F15 /* Object_C_Utils */,
 				34FB34E41F3D417B00785F15 /* Products */,
+				34FB34F51F3D4F0900785F15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +76,29 @@
 		34FB34E51F3D417B00785F15 /* Object_C_Utils */ = {
 			isa = PBXGroup;
 			children = (
-				34FB34E61F3D417B00785F15 /* Object_C_Utils.h */,
-				34FB34E71F3D417B00785F15 /* Object_C_Utils.m */,
+				34FB35061F3D53B300785F15 /* UIImage+ImageEffects.h */,
+				34FB35071F3D53B300785F15 /* UIImage+ImageEffects.m */,
+				34FB34F21F3D4EEB00785F15 /* NSString+Validate.h */,
+				34FB34F31F3D4EEB00785F15 /* NSString+Validate.m */,
+				34FB34F81F3D50A600785F15 /* NSString+Encrypt.h */,
+				34FB34F91F3D50A600785F15 /* NSString+Encrypt.m */,
+				34FB34FB1F3D51A300785F15 /* UIImage+Color.h */,
+				34FB34FC1F3D51A300785F15 /* UIImage+Color.m */,
+				34FB34FE1F3D523B00785F15 /* UILabel+Edge.h */,
+				34FB34FF1F3D523B00785F15 /* UILabel+Edge.m */,
+				34FB35011F3D530A00785F15 /* CALayer+Border.h */,
+				34FB35021F3D530A00785F15 /* CALayer+Border.m */,
 			);
 			path = Object_C_Utils;
+			sourceTree = "<group>";
+		};
+		34FB34F51F3D4F0900785F15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34FB35041F3D536300785F15 /* QuartzCore.framework */,
+				34FB34F61F3D4F0900785F15 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34FB34E81F3D417B00785F15 /* Object_C_Utils.m in Sources */,
+				34FB34F41F3D4EEB00785F15 /* NSString+Validate.m in Sources */,
+				34FB34FD1F3D51A300785F15 /* UIImage+Color.m in Sources */,
+				34FB35081F3D53B300785F15 /* UIImage+ImageEffects.m in Sources */,
+				34FB34FA1F3D50A600785F15 /* NSString+Encrypt.m in Sources */,
+				34FB35031F3D530A00785F15 /* CALayer+Border.m in Sources */,
+				34FB35001F3D523B00785F15 /* UILabel+Edge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +297,7 @@
 				34FB34EE1F3D417B00785F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
