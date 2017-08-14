@@ -95,6 +95,7 @@ void uncaughtExceptionHandler(NSException *exception){
 + (BOOL)removeCrashInfo {
     if (![ExceptionHandler defaultHandler].supportWriteFile) {
         [[NSUserDefaults standardUserDefaults] removeObjectForKey:kExceptionInfoKey];
+        return YES;
     }
     BOOL result=[[NSFileManager defaultManager] fileExistsAtPath:[ExceptionHandler defaultHandler].filePath];
     if (!result) {
