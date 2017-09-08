@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		349BA7041F6282D300A72EAB /* UIApplication+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 349BA7031F6282D300A72EAB /* UIApplication+Log.m */; };
 		34FB352D1F413D7A00785F15 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB351B1F413D7A00785F15 /* DateUtils.m */; };
 		34FB352E1F413D7A00785F15 /* ExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB351D1F413D7A00785F15 /* ExceptionHandler.m */; };
 		34FB352F1F413D7A00785F15 /* NSString+AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB351F1F413D7A00785F15 /* NSString+AppInfo.m */; };
@@ -31,6 +32,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		349BA7011F62829300A72EAB /* NSLogConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLogConst.h; sourceTree = "<group>"; };
+		349BA7021F6282D300A72EAB /* UIApplication+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Log.h"; sourceTree = "<group>"; };
+		349BA7031F6282D300A72EAB /* UIApplication+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Log.m"; sourceTree = "<group>"; };
 		34FB34E31F3D417B00785F15 /* libObject_C_Utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObject_C_Utils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FB34F61F3D4F0900785F15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		34FB35041F3D536300785F15 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -113,6 +117,9 @@
 				34FB35211F413D7A00785F15 /* NSString+Encrypt.m */,
 				34FB35221F413D7A00785F15 /* NSString+Validate.h */,
 				34FB35231F413D7A00785F15 /* NSString+Validate.m */,
+				349BA7011F62829300A72EAB /* NSLogConst.h */,
+				349BA7021F6282D300A72EAB /* UIApplication+Log.h */,
+				349BA7031F6282D300A72EAB /* UIApplication+Log.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -198,6 +205,7 @@
 				34FB35321F413D7A00785F15 /* CALayer+Border.m in Sources */,
 				34FB352F1F413D7A00785F15 /* NSString+AppInfo.m in Sources */,
 				34FB352D1F413D7A00785F15 /* DateUtils.m in Sources */,
+				349BA7041F6282D300A72EAB /* UIApplication+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
