@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "OCUtils"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "object-c utils"
   s.homepage     = "https://github.com/Fromlocal"
   s.license      = "MIT"

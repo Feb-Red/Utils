@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347E6B351F9DB889007F13CE /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 347E6B341F9DB889007F13CE /* KeyChain.m */; };
+		347E6B381F9DB912007F13CE /* TouchIDHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 347E6B371F9DB912007F13CE /* TouchIDHelp.m */; };
 		349BA7041F6282D300A72EAB /* UIApplication+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 349BA7031F6282D300A72EAB /* UIApplication+Log.m */; };
 		34FB352D1F413D7A00785F15 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB351B1F413D7A00785F15 /* DateUtils.m */; };
 		34FB352E1F413D7A00785F15 /* ExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FB351D1F413D7A00785F15 /* ExceptionHandler.m */; };
@@ -32,6 +34,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		347E6B331F9DB889007F13CE /* KeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChain.h; sourceTree = "<group>"; };
+		347E6B341F9DB889007F13CE /* KeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChain.m; sourceTree = "<group>"; };
+		347E6B361F9DB912007F13CE /* TouchIDHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchIDHelp.h; sourceTree = "<group>"; };
+		347E6B371F9DB912007F13CE /* TouchIDHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchIDHelp.m; sourceTree = "<group>"; };
 		349BA7011F62829300A72EAB /* NSLogConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLogConst.h; sourceTree = "<group>"; };
 		349BA7021F6282D300A72EAB /* UIApplication+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Log.h"; sourceTree = "<group>"; };
 		349BA7031F6282D300A72EAB /* UIApplication+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Log.m"; sourceTree = "<group>"; };
@@ -107,6 +113,8 @@
 		34FB35191F413D7A00785F15 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				347E6B331F9DB889007F13CE /* KeyChain.h */,
+				347E6B341F9DB889007F13CE /* KeyChain.m */,
 				34FB351A1F413D7A00785F15 /* DateUtils.h */,
 				34FB351B1F413D7A00785F15 /* DateUtils.m */,
 				34FB351C1F413D7A00785F15 /* ExceptionHandler.h */,
@@ -120,6 +128,8 @@
 				349BA7011F62829300A72EAB /* NSLogConst.h */,
 				349BA7021F6282D300A72EAB /* UIApplication+Log.h */,
 				349BA7031F6282D300A72EAB /* UIApplication+Log.m */,
+				347E6B361F9DB912007F13CE /* TouchIDHelp.h */,
+				347E6B371F9DB912007F13CE /* TouchIDHelp.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -203,7 +213,9 @@
 				34FB35331F413D7A00785F15 /* UIImage+Color.m in Sources */,
 				34FB35301F413D7A00785F15 /* NSString+Encrypt.m in Sources */,
 				34FB35321F413D7A00785F15 /* CALayer+Border.m in Sources */,
+				347E6B351F9DB889007F13CE /* KeyChain.m in Sources */,
 				34FB352F1F413D7A00785F15 /* NSString+AppInfo.m in Sources */,
+				347E6B381F9DB912007F13CE /* TouchIDHelp.m in Sources */,
 				34FB352D1F413D7A00785F15 /* DateUtils.m in Sources */,
 				349BA7041F6282D300A72EAB /* UIApplication+Log.m in Sources */,
 			);
@@ -253,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -295,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
